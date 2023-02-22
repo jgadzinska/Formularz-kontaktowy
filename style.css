@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: black;
+}
+body {
+    background-image: linear-gradient(to top right, rgb(76, 76, 237), rgb(97, 194, 97)); 
+    height: 100vh;
+    width: 100vw;
+}
+.form {
+    margin: 6px auto;
+    font-family: sans-serif;
+    max-width: 60vh;
+}
+.form-cont {
+    margin-bottom: 8px;
+}
+input, textarea {
+    font-family: sans-serif;
+    padding: 10px;
+    border: 1px solid rgb(22, 20, 20);
+    display: block;
+    width: 100%;
+    color: rgb(102, 102, 102);
+}
+textarea {
+    height: 200px;
+}
+label {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: black;
+}
+button {
+    padding: 15px 0;
+    color: white;
+    outline: none;
+    background-color: green;
+    border: 1px solid rgb(85, 180, 85);
+    width: 100%;
+    cursor: pointer; 
+}
+.submit-btn {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}

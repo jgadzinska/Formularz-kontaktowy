@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz kontaktowy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formularz kontaktowy</h1>
+    <form class="form" id="contactForm">
+        <div class="form-cont">
+            <label for="name">Imię i nazwisko</label>
+            <input type="text" name="name"  id="name" placeholder="Wpisz swoje imię i nazwisko">
+        </div>
+        <div class="form-cont">
+            <label for="phone">Telefon</label>
+            <input type="phone" name="phone" id="phone" placeholder="Wpisz swój numer telefonu" >
+        </div>
+        <div class="form-cont">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Wpisz swój adres e-mail">
+        </div>
+        <div class="form-cont">
+            <label for="message">Wiadomość</label>
+            <textarea name="message" id="message" rows="5" placeholder="Wpisz swoją wiadomość"></textarea>
+        </div>
+        <div class="form-cont">
+            <button type="submit" class="submit-btn">Wyślij</button>
+        </div>
+</body>
+</html>
